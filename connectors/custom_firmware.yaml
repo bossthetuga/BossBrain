@@ -209,7 +209,7 @@ pins:
     
   - id: EFI_ADC_10
     class: analog_inputs
-    ts_name: Analog Inputs 12 (C0)
+    ts_name: Analog 12 - Knock 2 (C0)
     
   - id: EFI_ADC_11
     class: analog_inputs
@@ -217,7 +217,15 @@ pins:
     
   - id: EFI_ADC_12
     class: analog_inputs
-    ts_name: Secondary On-board O2 (C2)    
+    ts_name: Secondary On-board O2 (C2)
+
+    - id: EFI_ADC_14
+    class: analog_inputs
+    ts_name: Analog Inputs 8 (C4)
+
+    - id: EFI_ADC_15
+    class: analog_inputs
+    ts_name: Analog 9 - Knock 1 (C5)
     
   - id: [E2, E2]
     class: [switch_inputs, event_inputs]
