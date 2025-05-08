@@ -275,14 +275,6 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: Digital Input 8 (C13)
 
-- id: [E0, E0]
-    class: [switch_inputs, event_inputs]
-    ts_name: UART8_RX (PE0)
-
-- id: [E1, E1]
-    class: [switch_inputs, event_inputs]
-    ts_name: UART8_TX (PE1)
-
 info:
   title: BossECU-Brain
   directory: BossECU-Brain
