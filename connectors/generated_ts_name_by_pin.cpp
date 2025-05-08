@@ -31,10 +31,10 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::E13: return "High Side 3 (E13)";
 		case Gpio::E14: return "High Side 2 (E14)";
 		case Gpio::E15: return "High Side 1 (E15)";
-		case Gpio::E2: return "VR/Hall 1 (E2)";
-		case Gpio::E3: return "VR/Hall 2 (E3)";
-		case Gpio::E4: return "VR/Hall 3 (E4)";
-		case Gpio::E5: return "VR/Hall 4 (E5)";
+		case Gpio::E2: return "Trigger 1 (E2)";
+		case Gpio::E3: return "Trigger 2 (E3)";
+		case Gpio::E4: return "Trigger 3 (E4)";
+		case Gpio::E5: return "Trigger 4 (E5)";
 		case Gpio::E6: return "Digital Input 7 (E6)";
 		case Gpio::E7: return "High Side 9 (E7)";
 		case Gpio::E8: return "High Side 12 (E8)";
