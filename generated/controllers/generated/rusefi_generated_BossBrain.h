@@ -54,8 +54,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",2="Analog Inputs 1 (A1)",11="Analog Inputs 10 (B0)",12="Analog Inputs 11 (B1)",13="Analog Inputs 12 (C0)",3="Analog Inputs 2 (A2)",4="Analog Inputs 3 (A3)",5="Analog Inputs 4 (A4)",7="Analog Inputs 6 (A6)",8="Analog Inputs 7 (A7)",9="Analog Inputs 8 (C4)",10="Analog Inputs 9 (C5)",1="On-board Battery Sense (A0)",6="On-board MAP (A5)",14="Primary On-board O2 (C1)",15="Secondary On-board O2 (C2)"
-#define adc_channel_e_fullenum "NONE","On-board Battery Sense (A0)","Analog Inputs 1 (A1)","Analog Inputs 2 (A2)","Analog Inputs 3 (A3)","Analog Inputs 4 (A4)","On-board MAP (A5)","Analog Inputs 6 (A6)","Analog Inputs 7 (A7)","Analog Inputs 8 (C4)","Analog Inputs 9 (C5)","Analog Inputs 10 (B0)","Analog Inputs 11 (B1)","Analog Inputs 12 (C0)","Primary On-board O2 (C1)","Secondary On-board O2 (C2)"
+#define adc_channel_e_enum 0="NONE",2="Analog Inputs 1 (A1)",9="Analog Inputs 10 (B0)",10="Analog Inputs 11 (B1)",11="Analog Inputs 12 (C0)",3="Analog Inputs 2 (A2)",4="Analog Inputs 3 (A3)",5="Analog Inputs 4 (A4)",7="Analog Inputs 6 (A6)",8="Analog Inputs 7 (A7)",1="On-board Battery Sense (A0)",6="On-board MAP (A5)",12="Primary On-board O2 (C1)",13="Secondary On-board O2 (C2)"
+#define adc_channel_e_fullenum "NONE","On-board Battery Sense (A0)","Analog Inputs 1 (A1)","Analog Inputs 2 (A2)","Analog Inputs 3 (A3)","Analog Inputs 4 (A4)","On-board MAP (A5)","Analog Inputs 6 (A6)","Analog Inputs 7 (A7)","Analog Inputs 10 (B0)","Analog Inputs 11 (B1)","Analog Inputs 12 (C0)","Primary On-board O2 (C1)","Secondary On-board O2 (C2)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -154,8 +154,8 @@
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
-#define brain_input_pin_e_enum 0="NONE",87="Digital Input 1 (F5)",86="Digital Input 2 (F4)",85="Digital Input 3 (F3)",84="Digital Input 4 (F2)",83="Digital Input 5 (F1)",82="Digital Input 6 (F0)",72="Digital Input 7 (E6)",47="Digital Input 8 (C13)",68="VR/Hall 1 (E2)",69="VR/Hall 2 (E3)",70="VR/Hall 3 (E4)",71="VR/Hall 4 (E5)"
-#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 8 (C13)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR/Hall 1 (E2)","VR/Hall 2 (E3)","VR/Hall 3 (E4)","VR/Hall 4 (E5)","Digital Input 7 (E6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 6 (F0)","Digital Input 5 (F1)","Digital Input 4 (F2)","Digital Input 3 (F3)","Digital Input 2 (F4)","Digital Input 1 (F5)"
+#define brain_input_pin_e_enum 0="NONE",87="Digital Input 1 (F5)",86="Digital Input 2 (F4)",85="Digital Input 3 (F3)",84="Digital Input 4 (F2)",83="Digital Input 5 (F1)",82="Digital Input 6 (F0)",72="Digital Input 7 (E6)",47="Digital Input 8 (C13)",68="Trigger 1 (E2)",69="Trigger 2 (E3)",70="Trigger 3 (E4)",71="Trigger 4 (E5)"
+#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 8 (C13)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Trigger 1 (E2)","Trigger 2 (E3)","Trigger 3 (E4)","Trigger 4 (E5)","Digital Input 7 (E6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 6 (F0)","Digital Input 5 (F1)","Digital Input 4 (F2)","Digital Input 3 (F3)","Digital Input 2 (F4)","Digital Input 1 (F5)"
 #define brain_pin_diag_e_PIN_DRIVER_OFF 0x20
 #define brain_pin_diag_e_PIN_DRIVER_OVERTEMP 0x10
 #define brain_pin_diag_e_PIN_OK 0
@@ -1426,7 +1426,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 1238780474
+#define SIGNATURE_HASH 1006074174
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1451,8 +1451,8 @@
 #define stft_cell_cfg_s_size 4
 #define STFT_CELL_COUNT 4
 #define stft_s_size 28
-#define switch_input_pin_e_enum 0="NONE",87="Digital Input 1 (F5)",86="Digital Input 2 (F4)",85="Digital Input 3 (F3)",84="Digital Input 4 (F2)",83="Digital Input 5 (F1)",82="Digital Input 6 (F0)",72="Digital Input 7 (E6)",47="Digital Input 8 (C13)",68="VR/Hall 1 (E2)",69="VR/Hall 2 (E3)",70="VR/Hall 3 (E4)",71="VR/Hall 4 (E5)"
-#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 8 (C13)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR/Hall 1 (E2)","VR/Hall 2 (E3)","VR/Hall 3 (E4)","VR/Hall 4 (E5)","Digital Input 7 (E6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 6 (F0)","Digital Input 5 (F1)","Digital Input 4 (F2)","Digital Input 3 (F3)","Digital Input 2 (F4)","Digital Input 1 (F5)"
+#define switch_input_pin_e_enum 0="NONE",87="Digital Input 1 (F5)",86="Digital Input 2 (F4)",85="Digital Input 3 (F3)",84="Digital Input 4 (F2)",83="Digital Input 5 (F1)",82="Digital Input 6 (F0)",72="Digital Input 7 (E6)",47="Digital Input 8 (C13)",68="Trigger 1 (E2)",69="Trigger 2 (E3)",70="Trigger 3 (E4)",71="Trigger 4 (E5)"
+#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 8 (C13)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Trigger 1 (E2)","Trigger 2 (E3)","Trigger 3 (E4)","Trigger 4 (E5)","Digital Input 7 (E6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Digital Input 6 (F0)","Digital Input 5 (F1)","Digital Input 4 (F2)","Digital Input 3 (F3)","Digital Input 2 (F4)","Digital Input 1 (F5)"
 #define TABLE_2_LOAD_SIZE 8
 #define TABLE_2_RPM_SIZE 8
 #define TABLE_3_LOAD_SIZE 8
@@ -1931,7 +1931,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.05.08.BossBrain.1238780474"
+#define TS_SIGNATURE "rusEFI main.2025.05.08.BossBrain.1006074174"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_SINGLE_WRITE_COMMAND 'W'
