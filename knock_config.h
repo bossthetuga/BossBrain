@@ -4,11 +4,11 @@
 
 #pragma once
 
-// Knock is on ADC9
-#define KNOCK_ADC ADCD9
+// Knock is on ADC15
+#define KNOCK_ADC ADCD15
 
-// knock 1 - pin PC5 (ADC9)
-#define KNOCK_ADC_CH1 ADC_CHANNEL_IN9
+// knock 1 - pin PC5 (ADC15)
+#define KNOCK_ADC_CH1 ADC_CHANNEL_IN15
 #define KNOCK_PIN_CH1 Gpio::C5
 
 // knock 2 - pin PC0 (ADC10)
