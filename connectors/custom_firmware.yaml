@@ -259,6 +259,14 @@ pins:
     class: [switch_inputs, event_inputs]
     ts_name: Digital Input 6 (F0)
 
+  - id: [E0, E0]
+    class: [switch_inputs, event_inputs]
+    ts_name: U8 RX (E0)
+
+  - id: [E1, E1]
+    class: [switch_inputs, event_inputs]
+    ts_name: U8 TX (E1)
+  
   - id: [E6, E6]
     class: [switch_inputs, event_inputs]
     ts_name: Digital Input 7 (E6)
