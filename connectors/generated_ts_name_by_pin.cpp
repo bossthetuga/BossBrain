@@ -25,6 +25,8 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::D5: return "Low Side 21 (D5)";
 		case Gpio::D8: return "Low Side 3 (D8)";
 		case Gpio::D9: return "Low Side 4 (D9)";
+		case Gpio::E0: return "U8 RX (E0)";
+		case Gpio::E1: return "U8 TX (E1)";
 		case Gpio::E10: return "High Side 10 (E10)";
 		case Gpio::E11: return "High Side 5 (E11)";
 		case Gpio::E12: return "High Side 4 (E12)";
